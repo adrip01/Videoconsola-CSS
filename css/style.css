@@ -59,6 +59,20 @@ body {
   align-items: center;
 }
 
+#contenedorCentral div {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+}
+
 #contenedorIzq {
   flex-grow: 1;
 }
@@ -69,4 +83,17 @@ body {
 
 #contenedorDer {
   flex-grow: 1;
+}
+
+#bordeExtScreen {
+  background-color: red;
+}
+
+#bordeIntScreen {
+  background-color: black;
+}
+
+#mediaScreen {
+  background-image: url(/img/media.jpg);
+  background-size: cover;
 }
