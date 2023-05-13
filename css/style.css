@@ -58,7 +58,19 @@ body {
   align-items: center;
 }
 
-#contenedorIzq div {
+#contenedorIzq1 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 30%;
+}
+
+#contenedorIzq2 {
   border-radius: 5px;
   border-style: solid;
   border-color: grey;
@@ -85,18 +97,55 @@ body {
   width: 90%;
 }
 
-#contenedorDer div {
+#contenedorDer1 {
   border-radius: 5px;
   border-style: solid;
   border-color: grey;
   border-width: 2px;
   display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
   flex-direction: column;
+  width: 80%;
+  height: 30%;
+}
+
+#contenedorDer2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 30%;
+}
+
+.BttBorder {
+  background-color: red;
+  border: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.roundBttBorder {
+  background-color: red;
+  border: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
 }
 
 #contenedorDer .Btt {
@@ -107,6 +156,8 @@ body {
   border-radius: 18px;
   border-width: 2px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #contenedorDer .roundBtt {
@@ -114,10 +165,9 @@ body {
   border: solid;
   border-radius: 100%;
   border-width: 2px;
-  padding: 35px;
+  padding: 30px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #contenedorIzq {
@@ -134,11 +184,12 @@ body {
   font-size: 20px;
   width: 120px;
   height: 80px;
-  align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 #contenedorCentral {
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 #contenedorDer {
