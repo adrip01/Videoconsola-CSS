@@ -1,0 +1,49 @@
+#contenedorExterior {
+  background-color: red;
+  height: 550px;
+  width: 1000px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #bd0000;
+  border-width: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedorInterior {
+  background-color: beige;
+  height: 530px;
+  width: 980px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #585858;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+#contenedorInterior > div {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#contenedorIzq {
+  flex-grow: 1;
+}
+
+#contenedorCentral {
+  flex-grow: 3;
+}
+
+#contenedorDer {
+  flex-grow: 1;
+}
