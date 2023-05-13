@@ -11,7 +11,7 @@ body {
 #bordeExt {
   background-color: red;
   height: 590px;
-  width: 1005px;
+  width: 1015px;
   border-radius: 5px;
   border-style: solid;
   border-color: #bd0000;
@@ -24,7 +24,7 @@ body {
 #contenedorExterior {
   background-color: red;
   height: 550px;
-  width: 1000px;
+  width: 1010px;
   border-radius: 5px;
   border-style: solid;
   border-color: #bd0000;
@@ -37,7 +37,7 @@ body {
 #contenedorInterior {
   background-color: beige;
   height: 530px;
-  width: 980px;
+  width: 990px;
   border-radius: 5px;
   border-style: solid;
   border-color: #585858;
@@ -54,13 +54,25 @@ body {
   border-width: 2px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
-#contenedorCentral div {
+#contenedorIzq div {
   border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+#contenedorCentral div {
   border-style: solid;
   border-color: grey;
   border-width: 2px;
@@ -73,20 +85,70 @@ body {
   width: 90%;
 }
 
+#contenedorDer div {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+#contenedorDer .Btt {
+  background-color: #b5b5b5;
+  border: solid;
+  width: 50px;
+  height: 25px;
+  border-radius: 18px;
+  border-width: 2px;
+  display: flex;
+}
+
+#contenedorDer .roundBtt {
+  background-color: #c31d1d;
+  border: solid;
+  border-radius: 100%;
+  border-width: 2px;
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #contenedorIzq {
   flex-grow: 1;
+  justify-content: space-around;
+}
+
+#tag {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  background-color: azure;
+  font-size: 20px;
+  width: 120px;
+  height: 80px;
+  align-items: center;
 }
 
 #contenedorCentral {
-  flex-grow: 3;
+  flex-grow: 2;
 }
 
 #contenedorDer {
   flex-grow: 1;
+  justify-content: space-around;
 }
 
 #bordeExtScreen {
   background-color: red;
+  border-radius: 15px;
 }
 
 #bordeIntScreen {
