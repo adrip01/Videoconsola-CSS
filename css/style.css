@@ -1,3 +1,26 @@
+body {
+  background-image: url(/img/background.jpg);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#bordeExt {
+  background-color: red;
+  height: 590px;
+  width: 1005px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #bd0000;
+  border-width: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #contenedorExterior {
   background-color: red;
   height: 550px;
