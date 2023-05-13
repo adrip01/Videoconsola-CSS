@@ -188,6 +188,68 @@ body {
   padding: 0px;
 }
 
+/* -borde ext dpad- */
+
+.dPadBorder {
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#dPadXBorderExt {
+  width: 115px;
+  height: 40px;
+  position: absolute;
+}
+
+#dPadYBorderExt {
+  width: 40px;
+  height: 115px;
+  position: absolute;
+}
+
+/* -borde- */
+
+.dPadBorderExt {
+  background-color: black;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#dPadXBorder {
+  width: 115px;
+  height: 40px;
+  position: absolute;
+}
+
+#dPadYBorder {
+  height: 115px;
+  width: 40px;
+  position: absolute;
+}
+
+/* -borde int dpad- */
+
+.dPadBorderInt {
+  background-color: black;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+#dPadXBorderInt {
+  width: 100px;
+  height: 25px;
+  position: absolute;
+}
+
+#dPadYBorderInt {
+  width: 25px;
+  height: 100px;
+  position: absolute;
+}
+
+/* -- */
+
 #contenedorCentral {
   flex-grow: 3;
 }
