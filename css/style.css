@@ -84,7 +84,20 @@ body {
   height: 30%;
 }
 
-#contenedorCentral div {
+#contenedorCentral2 {
+  height: 480px;
+  width: 530px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#contenedorCentral .container {
   border-style: solid;
   border-color: grey;
   border-width: 2px;
@@ -97,6 +110,44 @@ body {
   width: 90%;
 }
 
+#contenedorCentral .containerInt {
+  order: 1;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#upperText {
+  order: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+#underText {
+  order: 2;
+  border: solid;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  margin-top: 5px;
+}
+
 #contenedorDer1 {
   border-radius: 5px;
   border-style: solid;
@@ -107,8 +158,8 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: column;
-  width: 80%;
-  height: 30%;
+  width: 60%;
+  height: 40%;
 }
 
 #contenedorDer2 {
@@ -120,7 +171,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 30%;
 }
 
@@ -170,9 +221,19 @@ body {
   justify-content: center;
 }
 
-#contenedorIzq {
-  flex-grow: 1;
-  justify-content: space-around;
+.labelC {
+  align-self: center;
+  font-size: 12px;
+  margin-right: 45px;
+}
+
+.labelR {
+  align-self: center;
+  /* crear otro div dentro de cada boton */
+}
+
+div[class*="label"] {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #tag {
@@ -250,12 +311,18 @@ body {
 
 /* -- */
 
+#contenedorIzq {
+  width: 200px;
+  justify-content: space-around;
+}
+
 #contenedorCentral {
-  flex-grow: 3;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 #contenedorDer {
-  flex-grow: 1;
+  width: 200px;
   justify-content: space-around;
 }
 
