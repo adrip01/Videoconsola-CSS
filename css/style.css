@@ -367,6 +367,6 @@ div[class*="label"] {
 #mediaScreen {
   height: 97%;
   width: 95%;
-  background-image: url(/img/media.jpg);
+
   background-size: cover;
 }
