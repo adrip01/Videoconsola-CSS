@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/background.jpg);
+  background-color: #6096ff;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -9,12 +9,12 @@ body {
 }
 
 #bordeExt {
-  background-color: red;
+  background: linear-gradient(to bottom right, red 25%, #8d0515);
   height: 590px;
   width: 1015px;
   border-radius: 5px;
   border-style: solid;
-  border-color: #bd0000;
+  border-color: #8d0515;
   border-width: 3px;
   display: flex;
   justify-content: center;
@@ -28,7 +28,9 @@ body {
   border-radius: 5px;
   border-style: solid;
   border-color: #bd0000;
-  border-width: 3px;
+  border-top-color: rgba(255, 255, 255, 0.433);
+  border-bottom-color: #ffffff55;
+  border-width: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +51,7 @@ body {
 
 #contenedorInterior > div {
   border-radius: 5px;
-  border-style: solid;
+  /* border-style: solid; bordes contenedores ocultos */
   border-color: grey;
   border-width: 2px;
   display: flex;
@@ -60,7 +62,7 @@ body {
 
 #contenedorIzq1 {
   border-radius: 5px;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: grey;
   border-width: 2px;
   display: flex;
@@ -72,7 +74,7 @@ body {
 
 #contenedorIzq2 {
   border-radius: 5px;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: grey;
   border-width: 2px;
   display: flex;
@@ -84,44 +86,47 @@ body {
   height: 30%;
 }
 
-#contenedorCentral2 {
-  height: 480px;
-  width: 530px;
-  border-style: solid;
-  border-color: grey;
-  border-width: 2px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+#bevelExtScreen {
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-width: 5px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #fdf0dc 25%, #a97139);
+}
+
+#bevelIntScreen {
+  border: solid;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-width: 5px;
+  border-radius: 15px;
+  background-color: beige;
 }
 
 #contenedorCentral .container {
   border-style: solid;
-  border-color: grey;
-  border-width: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   height: 90%;
-  width: 90%;
+  width: 95%;
 }
 
 #contenedorCentral .containerInt {
   order: 1;
   border-style: solid;
-  border-color: grey;
   border-width: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  height: 80%;
-  width: 90%;
 }
 
 .text {
@@ -135,22 +140,24 @@ body {
   order: 0;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 5px;
+  font-size: 25px;
 }
 
 #underText {
   order: 2;
   border: solid;
   border-radius: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   letter-spacing: 2px;
   font-family: fantasy;
-  margin-top: 5px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 #contenedorDer1 {
   border-radius: 5px;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: grey;
   border-width: 2px;
   display: flex;
@@ -159,18 +166,18 @@ body {
   align-items: flex-start;
   flex-direction: column;
   width: 60%;
-  height: 40%;
+  height: 50%;
 }
 
 #contenedorDer2 {
   border-radius: 5px;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: grey;
   border-width: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: 30%;
 }
@@ -196,7 +203,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 5px;
-  margin: 10px;
 }
 
 #contenedorDer .Btt {
@@ -221,15 +227,25 @@ body {
   justify-content: center;
 }
 
-.labelC {
+.containerAB {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.labelCol {
   align-self: center;
   font-size: 12px;
   margin-right: 45px;
 }
 
-.labelR {
-  align-self: center;
-  /* crear otro div dentro de cada boton */
+.labelRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 div[class*="label"] {
@@ -269,7 +285,7 @@ div[class*="label"] {
   position: absolute;
 }
 
-/* -borde- */
+/* -borde dpad- */
 
 .dPadBorderExt {
   background-color: black;
@@ -327,15 +343,21 @@ div[class*="label"] {
 }
 
 #bordeExtScreen {
+  height: 80%;
+  width: 95%;
   background-color: red;
   border-radius: 15px;
 }
 
 #bordeIntScreen {
+  height: 95%;
+  width: 95%;
   background-color: black;
 }
 
 #mediaScreen {
+  height: 97%;
+  width: 95%;
   background-image: url(/img/media.jpg);
   background-size: cover;
 }
