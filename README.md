@@ -41,7 +41,7 @@ Decidí replicar la imagen frontal de la consola Game&Watch de Nintendo. Todo es
 Landing
 <img src="./img/GameWatchCSS.jpg">  
 Referencia
-<img src="./img/GameWatch.png">
+<img src="./img/gamewatch.png">
 
 ## Futuras funcionalidades
 
