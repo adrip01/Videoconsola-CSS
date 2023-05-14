@@ -26,9 +26,7 @@ Decidí replicar la imagen frontal de la consola Game&Watch de Nintendo. Todo es
 ## Stack
 
 <div align="center">
-<a href="https://www.reactjs.com/">
     <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"/>
-</a>
  </div>
 
 ## Instalación en local
