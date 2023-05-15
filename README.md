@@ -5,11 +5,10 @@
   <ol>
     <li><a href="#objetivo-🎯">Objetivo</a></li>
     <li><a href="#sobre-el-proyecto-🔎">Sobre el proyecto</a></li>
+    <li><a href="#deploy-🚀">Deploy</a></li>
     <li><a href="#stack">Stack</a></li>
-    <li><a href="#instalación-en-local">Instalación</a></li>
     <li><a href="#vistas">Vistas</a></li>
     <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
-    <li><a href="#contribuciones">Contribuciones</a></li>
     <li><a href="#webgrafia">Webgrafia</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
@@ -23,22 +22,22 @@ Este es un proyecto para practicar HTML y CSS, el uso de contenedores y Flexbox.
 
 Decidí replicar la imagen frontal de la consola Game&Watch de Nintendo. Todo esta creado a partir de contenedores y sus propiedades en CSS.
 
+  
+## Deploy 🚀
+<div align="center">
+    ⭐🌟⭐<a href="https://adrip01.github.io/Videoconsola-CSS/"><strong>Url a producción </strong></a>⭐🌟⭐
+</div>
+
 ## Stack
 
 <div align="center">
     <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"/>
  </div>
 
-## Instalación en local
-
-1. Clonar el repositorio
-2. `$ npm install`
-3. `$ npm run dev`
-4. ...
 
 ## Vistas
 
-Landing
+Resultado
 <img src="./img/GameWatchCSS.jpg">  
 Referencia
 <img src="./img/gamewatch.png">
@@ -47,30 +46,9 @@ Referencia
 
 <!-- ✅   -->
 
-⬜ Implementar un video en la pantalla  
+✅ Implementar un video en la pantalla  
 ⬜ Funcionalidades en los botones
-
-## Contribuciones
-
-Las sugerencias y aportaciones son siempre bienvenidas.
-
-Puedes hacerlo de dos maneras:
-
-1. Abriendo una issue
-2. Crea un fork del repositorio
-   - Crea una nueva rama
-     ```
-     $ git checkout -b feature/nombreUsuario-mejora
-     ```
-   - Haz un commit con tus cambios
-     ```
-     $ git commit -m 'feat: mejora X cosa'
-     ```
-   - Haz push a la rama
-     ```
-     $ git push origin feature/nombreUsuario-mejora
-     ```
-   - Abre una solicitud de Pull Request
+⬜ Diseño responsive
 
 ## Webgrafia:
 
