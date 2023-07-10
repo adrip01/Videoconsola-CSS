@@ -31,7 +31,8 @@ Decidí replicar la imagen frontal de la consola Game&Watch de Nintendo. Todo es
 ## Stack
 
 <div align="center">
-    <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"/>
+    <img src= "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src= "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
  </div>
 
 
@@ -44,11 +45,8 @@ Referencia
 
 ## Futuras funcionalidades
 
-<!-- ✅   -->
-
 ✅ Implementar un video en la pantalla  
 ⬜ Funcionalidades en los botones
-⬜ Diseño responsive
 
 ## Webgrafia:
 
